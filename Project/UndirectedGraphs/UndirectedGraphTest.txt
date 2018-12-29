@@ -1,0 +1,6 @@
+5
+ba ea 9
+da aa 4 ea 8
+ca da 9 ea 10 aa 7
+ea da 8 aa 3 ba 9
+aa da 4 ea 3 ca 7
