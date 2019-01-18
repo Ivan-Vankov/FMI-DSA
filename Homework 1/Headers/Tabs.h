@@ -19,7 +19,7 @@ public:
 	void sortByUrl();
 	void sortByTimestamp();
 private:
-	bool isFirstTab(const iterator<Tab>&);//begin i end ne davat da ima const otzad
+	bool isFirstTab(const iterator<Tab>&);
 	bool isLastTab(const iterator<Tab>&);
 private:
 	List<Tab> tabs;

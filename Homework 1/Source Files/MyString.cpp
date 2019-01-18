@@ -15,7 +15,7 @@ MyString::MyString(const char* rhs) {
 	arr = new char[newAllocSize];
 	checkLessStrcat(arr, rhs);
 	length = rhsSize;
-	allocSize = newAllocSize;//trqbva check za zadelena pamet
+	allocSize = newAllocSize;
 }
 
 MyString::MyString(MyString const & other) {
@@ -32,7 +32,7 @@ MyString& MyString::operator=(MyString const & other) {
 
 
 MyString::~MyString() {
-	delete[] arr;//ne e free()
+	delete[] arr;
 	arr = NULL;
 	allocSize = 0;
 	length = 0;

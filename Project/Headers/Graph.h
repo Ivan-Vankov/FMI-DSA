@@ -10,13 +10,13 @@
 
 // |
 // v Vector		
-// [aa],0											([ade],1) <- NeighbourAndWeight
-// [ba],0												^
-// [ca],0												|
-// [da],0											([abc],1)
-// [ea],0												^
+// [aa],0                                           ([ade],1) <- NeighbourAndWeight
+// [ba],0                                               ^
+// [ca],0                                               |
+// [da],0                                           ([abc],1)
+// [ea],0                                               ^
 // [fa],0 -> Vector<String,pair<string,Vector<NandW>>>  | Vector
-// [ga],0 -> [gb],1	->								  [gc],2
+// [ga],0 -> [gb],1	->                                [gc],2
 // [ha],0
 // 
 

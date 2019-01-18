@@ -30,9 +30,9 @@ public:
 private:
 	void checkLessStrcat(char* str1, const char*str2);
 public:
-	void removeUnnecessarySymbols(const MyString&);//////////////////////////////////////////////////////da se sloji neshto za premahvane na allocSize
+	void removeUnnecessarySymbols(const MyString&);
 public:
-	void readLine(std::istream&);//moje da trqbva da ima const
+	void readLine(std::istream&);
 public:
 	operator const char*();
 	char operator[](int) const;
@@ -46,9 +46,9 @@ private:
 	void reallocate(int NewSize);
 	void copyFrom(const MyString &);
 private:
-	int calculateClosestPowerOfTwo(int) const;/////////da se mahne!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	int calculateClosestPowerOfTwo(int) const;
 public:
-	MyString wordNumber(int) const;//vryshta dumata na indeks - podadenoto 4islo(zapochvaiki s 1,2,3...
+	MyString wordNumber(int) const;
 private:
 	char* arr;
 	int allocSize;

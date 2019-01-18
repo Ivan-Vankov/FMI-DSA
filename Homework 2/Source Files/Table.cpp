@@ -226,7 +226,7 @@ void Table::siftDown(int n, int index) {
 			break;
 		}
 		succ = 2 * index + 1;
-		if (succ < n - 1 && strcmp(table[succ + 1].getSubject(), table[succ].getSubject()) < 0) {//ako drugiq mu naslednik syshtestvuva i e po malyk ot pirviq naslednik, to vzimame nego
+		if (succ < n - 1 && strcmp(table[succ + 1].getSubject(), table[succ].getSubject()) < 0) {
 			++succ;
 		}
 	}
@@ -282,7 +282,7 @@ void Table::reverseSiftDown(int n, int index) {
 			break;
 		}
 		succ = 2 * index + 1;
-		if (succ < n - 1 && strcmp(table[succ + 1].getSubject(), table[succ].getSubject()) > 0) {//ako drugiq mu naslednik syshtestvuva i e po-golqm ot pirviq naslednik, to vzimame nego
+		if (succ < n - 1 && strcmp(table[succ + 1].getSubject(), table[succ].getSubject()) > 0) {
 			++succ;
 		}
 	}
